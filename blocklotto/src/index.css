@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: "Hahmlet", serif;
+  font-family: "Knewave", cursive;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../public/bg.jpg"); /* The image used */
+  /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header {
+  position: fixed;
+  font-family: "Knewave", cursive;
+  font-size: 40px;
+  font-weight: 300px;
+  height: 100px;
+  width: 100%;
+  color: goldenrod;
+  letter-spacing: 5px;
+
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  color: goldenrod;
+}
+
+.main {
+  margin: 30px;
+  padding-top: 60px;
+
+  display: flex;
+}
+.welcome {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: aquamarine;
+}
+.txt {
+  font-size: 20px;
+  color: aquamarine;
+}
+.right {
+  display: flex;
+  padding-left: 300px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-block: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: goldenrod;
+  font-size: 50px;
+  color: black;
+  font-family: "Knewave", cursive;
+  box-shadow: none;
+  cursor: pointer;
+  border: transparent;
+}
+button:hover {
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 8px #f9f8fc;
+}
+.bt {
+  margin-bottom: 50px;
+}
